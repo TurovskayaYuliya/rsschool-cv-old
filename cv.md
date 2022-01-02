@@ -45,4 +45,4 @@ function towelSort (matrix) {
 * Course JavaScript/DOM/Interfaces for beginners, [JavaScript.info](JavaScript.info), in the learning process
 
 ## English
- B1
+ B1 (pre-intermediate)
