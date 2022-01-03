@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #1c1c1c;
+}
+
+ul {
+    padding: 0;
+}
+
+li { 
+    list-style-type: none;
+    text-align: left;
+}
+
+.wrapper{ 
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+.wrapper-header {
+    border-bottom: #1C1C1C solid 1px;
+}
+
+.title {
+    width: 70%;
+    font-style: normal;
+    font-weight: 800;
+    align-self: center;
+}
+
+.foto-container {
+    width: 30%;
+    border-left: #1C1C1C solid 1px;
+}
+
+.foto{ 
+    width: 93.33%;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.left-container {
+    width: 70%;
+    border-right: #1C1C1C solid 1px;
+    box-sizing: border-box;
+}
+
+.left-container-wrapper { 
+    padding-right: 60px;
+}
+
+.summary-text {
+    text-align: justify;
+}
+
+.jscode {
+    width: 100%;
+    background-color:#fafafa;
+    text-align: left;
+    line-height: 12px;
+}
+
+.right-container {
+    width: 30%;
+}
+
+.contacts {
+    padding-left: 10px;
+}
+
+.contacts-icon {
+    width: 40px;
+    border-radius: 100%;
+}
+
+.contacts-list {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-content: center;
+}
+
+.contacts-list-link {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    height: 40px;
+    color: #1C1C1C;
+}
+
+.footer-wrapper {
+    height: 100px;
+    border-top: #1C1C1C solid 1px;
+    align-items: center;
+}
+
+.logo-link {
+    display: block;
+    width: 100px;
+    height: 50px;
+    background: url(rs_school_js.svg) center no-repeat;
+    background-size: contain;
+}
+
+.link {
+    text-decoration: none;
+    color: #1C1C1C;
+}
